@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head> 
+    <meta charset="UTF-8">
+    <title>Опорный конспект по GitHub ч.1</title>
+    <link rel="stylesheet" href="./main-style.css">
+</head>
+<header>
+    <img src="/images/logo.png">
+    <p> Петров Иван Сергеевич</p>
+    <p>1102o</p>
+    <p>Людмила</p>
+</header>
+<body class="terminal">  
+    <a href="/index.html">На главную</a>
+<pre>
+<h3 class="kapch">1. Как сгенерировать SSH-ключ и добавить к себе на GitHub:</h3>
+<h4>•Шаги:</h4>
+    1. Откройте терминал и выполните <span class="tag">ssh-keygen </span><span class="atr">-t rsa -b 4096</span>
+    2. Нажмите Enter, чтобы принять стандартное расположение файла.
+    3. Введите пароль или нажмите Enter, чтобы оставить его пустым.
+    4. Выполните <span class="tag">cat./.ssh/id_rsa.pub</span>, чтобы скопировать открытый ключ.
+    5. Перейдите в настройки GitHub -> SSH and GPG keys -> New SSH key -> вставьте ключ.
+<h3 class="kapch">2. Как добавить к себе чей-то репозиторий:</h3>
+<h4>•Шаги:</h4>
+    1. Скопируйте URL репозитория с GitHub.
+    2. В терминале выполните <span>git clone</span><span class="atr">(URL репозитория)</span>.
+<h3 class="kapch">3. Как добавить на свой GitHub склонированный репозиторий:</h3>
+<h4>•Шаги:</h4>
+    1. Создайте пустой репозиторий на GitHub.
+    2. Скопируйте его ssh-ссылку.
+    3. Войдите в директорию склонированного репозитория в терминале.
+    4. Выполните <span>git remote set-ulr origin</span><span class="atr">ssh-link</span>.
+    5. Выполните <span class="tag">git push</span>.
+<h3 class="kapch">4. Как сохранить изменения на GitHub (сделать коммит):</h3>
+<h4>•Шаги:</h4>
+    1. Выполните <span>git add </span><span class="atr">-A</span>, чтобы добавить все изменения.
+    2. Выполните <span>git commit </span><span class="atr">-m</span><span class="com">"Описание коммита"</span>.
+    3. Выполните <span>git push</span>, чтобы отправить изменения на GitHub.
+<h3 class="kapch">5. Как работать со своим репозиторием с другого устройства:</h3>
+<h4>•Шаги:</h4>        
+    1. Склонируйте свой репозиторий с GitHub на другое устройство: <span class="tag">git clone</span><span class="atr">(URL вашего репозитория)</span>.
+    2. Вносите изменения, коммитите и отправляйте их обратно на GitHub.
+<h3 class="kapch">6. Как открыть VSCode из терминала Linux:</h3>
+<h4>•Шаги:</h4>
+    1. В терминале выполните <span class="tag">code</span> . для открытия текущего каталога в VSCode.
+<h3 class="kapch">7. Как запустить программу в терминале (через Node.js):</h3>
+<h4>•Шаги:</h4>
+    1. Введите <span class="tag">node</span><span class="atr">имя_файла.js</span>, чтобы выполнить программу Node.js в терминале.
+<h3 class="kapch">8. Как создать ветку:</h3>
+<h4>•Шаги:</h4>
+    1. Выполните <span>git branch</span><span class="atr">новая_ветка</span>, чтобы создать новую ветку.
+    2. Выполните <span>git checkout</span><span class="atr">новая_ветка</span>, чтобы переключиться на новую ветку.
+    3. Или используйте <span>git checkout</span><span class="atr">-b</span><span class="atr">новая_ветка</span> для создания и переключения на новую ветку сразу.
+</pre>
+<footer class="niz">
+<a href="https://ru.hexlet.io/"> <img src="/images/logo.png"></a>
+<p>Hexlet</p>
+<p class="ff">16.10.2023</p>
+</footer>
+</body>
+</html> 

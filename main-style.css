@@ -1,0 +1,170 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("/fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Mono";
+    src: url("fonts/RobotoMono-Regular.ttf");
+}
+
+@font-face {
+    font-family: "San Francisco Mono";
+    src: url("fonts/SFMono-Regular.otf");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("fonts/Montserrat-Regular.ttf");
+}
+
+body{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    font-family:"Roboto",sans-serif;
+    background-image: repeating-linear-gradient(#a2efbd,#09425c,#233c94);   
+}
+
+header{
+    font-size: 0.8em;
+    font-family:"Roboto";
+    text-align: left;
+}
+
+header img{
+    width: 50px;
+    height: 50px;
+}
+
+h1,h2,h3{
+    font-family: "Montserrat";
+    text-align: left;
+    padding:6px 10px;
+}
+
+h1{
+    font-size: 1.5em;
+}
+
+h2{
+    font-size: 1em  ;
+}
+
+div{
+    font-family:"Monsterrat" ;
+    font-size: 1em;
+    background-image: repeating-linear-gradient(#FF0000,#009999,#9FEE00);
+    border-radius: 24px;
+    height: 580px;
+    width: 530px;
+    margin-left: 5px;   
+}
+a:hover{
+    color:blue;
+}
+div a:hover{
+    color:green;
+}
+div:hover{
+    box-shadow: 0px -5px 10px 0px black;
+}
+
+div img{
+    max-width: 118px;
+    max-height: 118px;
+}
+.conten{
+    display: flex;
+    width: 1640px;
+    height: 1180px;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap:wrap;
+    column-count: 3;    
+}
+footer{
+    text-align: center;
+    font-size: 0.7em;
+    padding-top: 5px;
+    margin-top: 35px;
+    background-image: repeating-linear-gradient(#55c4b9,#aae2dc,#ffffff);
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+.ff{
+    text-align: right;
+}
+
+footer img{
+    width: 50px;
+    height: 50px;
+}
+.go{
+    background-image: green;
+    padding: 10px 10px;
+}
+pre{
+line-height: 1.7;
+font-family: "Roboto";
+font-size: 1em;
+font-weight: normal;
+margin: 0;
+padding: 0;
+}
+
+.terminal{
+    margin: 0;
+    margin-bottom: 16px;
+    background-image: repeating-linear-gradient(45deg , #39798d,#f7a8b1,#a6c278);
+}
+span{
+    background-color: #6d757d;
+    padding: 12px;
+    margin-bottom: 16px;    
+    margin: 0;
+    font-family:"San Francisco Mono";
+    font-size: 0.85em;
+
+}
+h3{
+    margin: 5px;
+    line-height: 0;
+}
+.tag {
+    color: #24292E;
+    
+  }
+  
+  .atr {
+    color: #009999;
+  }
+  
+  .com {
+    color: #999988;
+  }
+
+.kapch{
+margin-top: 55px;
+margin-bottom: 15px;
+text-align: left;
+padding: 0;
+color:purple;
+}
+
+h4{
+padding: 0;
+margin: 0;
+}
+
+.niz{
+    padding-top: 5px;
+    margin-top: 35px;
+    background-image: repeating-linear-gradient(#55c4b9,#aae2dc,#ffffff);
+}
